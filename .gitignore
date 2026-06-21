@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and local files
+.idea/
+.vscode/
+*.log
+
+# Data and generated artifacts
+dataset/
+datasets/
+cache/
+checkpoints/
+output_dir/
+runs/
+wandb/
+
+# Model weights and large arrays
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.npy
+*.npz
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
