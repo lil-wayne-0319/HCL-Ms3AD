@@ -87,8 +87,3 @@ python Test.py --method_name PC+RGB+Infra+fusion_memory --dataset_path ./dataset
 ```
 
 Outputs are saved under `output_dir/` by default.
-
-## Notes
-
-- Large local folders such as datasets, caches, checkpoints, and output directories are ignored by Git.
-- The implementation is based on M3DM and PatchCore-style anomaly detection components.
